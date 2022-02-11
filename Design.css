@@ -1,46 +1,40 @@
-.top-bottom{
-    overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
+div{
+  background-color: lightgrey;
 }
-body { 
-    background: url(https://www.sciencenews.org/wp-content/uploads/2020/06/062520_bb_recursion_feat-1028x579.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-body {
-    margin: 0;
+main{
+  position: fixed;
+  top: 53px;
+  left: 0;
+  background-color: lightgrey;
 }
-.top-bottom p{
-    color: blue;
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    line-height: 25px;
-    border-radius: 4px;
-    height: 18px;
-    font-size: 25px;
-    font-weight: bold;
+main img{
+  width: 100%;
+  height: 100%;
 }
-.top-bottom a{
-    color: blue;
-    float: right;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+header a{
+  float: left;
+  top: 0px;
 }
-.top-bottom a:hover{
-    background-color: #ddd;
-    color: black;
+header h1{
+  position: absolute;
+  left: 41%;
 }
-.top-bottom a.active{
-    background-color: dodgerblue;
-    color: white;
+header{
+  text-align: center;
+  background-color: darkgray;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+header img{
+  height: 50px;
+  width: 50px;
+}
+.column{
+  background-color: lightgrey;
+  width: 33.33%;
+  float: left;
 }
 @media screen and (max-width: 500px) {
     .top-bottom a {
